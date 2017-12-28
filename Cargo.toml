@@ -1,0 +1,14 @@
+[package]
+name = "p"
+version = "0.0.0"
+description = "Rust package for Python"
+authors = ["theshteves <stevenkneiser@gmail.com>"]
+repository = "https://github.com/theshteves/p"
+license = "MIT"
+keywords = ["p", "python", "ru", "extension", "theshteves"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+
+[dependencies]
